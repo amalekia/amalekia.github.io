@@ -99,6 +99,7 @@ main {
   justify-content: center;
   font-size: 40px;
   font-family: Georgia;
+  color: lightslategrey;
 }
 
 /* CSS for portfolio grid */
@@ -129,6 +130,10 @@ main {
 
   /* Debug border */
   /* border: 2px solid black; */
+}
+
+.portfolio-image {
+  max-height: 500px;
 }
 
 .project-details {
@@ -228,7 +233,7 @@ main {
   width: 900px;
 }
 
-#worksubsection > .about-image:hover {
+#right-subsection > .about-image:hover {
   transform: scale(1.2);
   transition: 0.2s ease-in-out;
 }
@@ -243,7 +248,7 @@ main {
   font: serif; 
 }
 
-#subsection-work-header {
+#subsection-right-header {
   font-size: 30px;
   text-align: right;
   font: serif; 
