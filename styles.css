@@ -211,7 +211,7 @@ main {
 }
 
 .about-subsection {
-  position: fixed;
+  position: relative;
   left: 0;
   padding: 20px;
   justify-content: space-between;
@@ -222,7 +222,7 @@ main {
 }
 
 #rightsubsection {
-  position: fixed;
+  position: relative;
   right: 0;
   padding: 20px;
   justify-content: space-between;
