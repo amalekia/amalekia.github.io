@@ -211,8 +211,8 @@ main {
 }
 
 .about-subsection {
-  margin-left: -370px;
-  margin-top: 20px;
+  position: fixed;
+  left: 0;
   padding: 20px;
   justify-content: space-between;
   font-size: 18px;
@@ -222,9 +222,8 @@ main {
 }
 
 #rightsubsection {
-  margin-left: 370px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  position: fixed;
+  right: 0;
   padding: 20px;
   justify-content: space-between;
   font-size: 18px;
